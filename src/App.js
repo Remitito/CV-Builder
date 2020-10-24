@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import General from "./General";
+import Education from './Education'
+import Work from './Work'
+import Help from './Help'
+import Skills from './Skills'
 
-function App() {
+class App extends Component {
+  render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 id="head">CV Builder</h1>
+    <div className="App" id="main">
+      <div id="resumeCont">
+      <div id="resume">
+      <General />
+      <h3>Education</h3>
+      <Education />
+      <h3>Work Experience</h3>
+      <Work />
+      <h3>Skills</h3>
+      <Skills />
+      </div>
+      </div>
+      <Help />
+    </div>
     </div>
   );
 }
+}
 
 export default App;
+
+
+// Hide buttons for copying finished thing
+// Alongside the CV can offer pointers
+// Split the date things
+// Textboxes need to empty after submitting
+// Add delete function to edu textboxes

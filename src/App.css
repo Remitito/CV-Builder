@@ -1,38 +1,172 @@
+body {
+  background-image: url("./pexels-energepiccom-288477.jpg");
+  justify-content: center;
+}
 .App {
+  margin-top: 50px;
+  margin: auto;
+  width: 50%;
+  font-size: x-large;
+}
+
+#head {
   text-align: center;
+  color: black;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#main {
+  display: flex;
+  width: 1550px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#resumeCont {
+  background-color: white;
+  width: 1100px;
+  border: solid;
+  border-width: 10px;
+  border-color: black;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#resume {
+  padding: 50px;
+  width: 1000px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contactStuff {
+  height: 30px;
+  font-size: 20px;
+}
+
+#general {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+#profEntry {
+  width: 500px;
+  font-size: larger;
+  height: 270px;
+  line-height: 30px;
+}
+
+#eduCont,
+#workCont {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  justify-content: space-between;
+}
+
+.dates {
+  width: 250px;
+  margin-right: 50px;
+}
+.eduInfo {
+  width: 600px;
+  justify-content: space-between;
+}
+.eduEntry,
+.workEntry {
+  width: 500px;
+  height: 50px;
+}
+
+.dateCont {
+  display: flex;
+  flex-direction: row;
+  width: 40px;
+}
+.dayMon {
+  width: 50px;
+  height: 30px;
+  line-height: 0;
+  z-index: 1;
+}
+.year {
+  width: 90px;
+  height: 30px;
+}
+
+#summary,
+#summaryWork {
+  width: 600px;
+  height: 150px;
+}
+
+.delete {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#warnEdu {
+  width: 600px;
+  margin-top: 10px;
+  font-size: x-large;
+  font-weight: bolder;
+  color: red;
+}
+
+.delBut {
+  background-image: url("bin.png");
+}
+
+#help {
+  border: solid;
+  border-width: 10px;
+  border-color: black;
+  width: 500px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  font-size: 35px;
+  background-color: #00887a;
+  font-family: "Courier New", Courier, monospace;
+  color: #ffffff;
+}
+#helpText {
+  margin-top: 50px;
+  align-self: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#helpButCont {
+  margin-bottom: 140px;
+  margin-top: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.helpBut {
+  justify-self: center;
+  height: 80px;
+  width: 330px;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#disc {
+  padding-top: 50px;
+}
+
+.cancClear {
+  color: red;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.submitBut {
+  font-size: 20px;
+}
+
+#skillList {
+  line-height: 1.7;
 }
