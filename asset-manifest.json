@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/CV-Builder/static/css/main.9c8950d5.chunk.css",
+    "main.js": "/CV-Builder/static/js/main.7e9efce4.chunk.js",
+    "main.js.map": "/CV-Builder/static/js/main.7e9efce4.chunk.js.map",
+    "runtime-main.js": "/CV-Builder/static/js/runtime-main.06ada664.js",
+    "runtime-main.js.map": "/CV-Builder/static/js/runtime-main.06ada664.js.map",
+    "static/js/2.b315a560.chunk.js": "/CV-Builder/static/js/2.b315a560.chunk.js",
+    "static/js/2.b315a560.chunk.js.map": "/CV-Builder/static/js/2.b315a560.chunk.js.map",
+    "index.html": "/CV-Builder/index.html",
+    "precache-manifest.bf7be7fdbed255722f4b57335cf41a67.js": "/CV-Builder/precache-manifest.bf7be7fdbed255722f4b57335cf41a67.js",
+    "service-worker.js": "/CV-Builder/service-worker.js",
+    "static/css/main.9c8950d5.chunk.css.map": "/CV-Builder/static/css/main.9c8950d5.chunk.css.map",
+    "static/js/2.b315a560.chunk.js.LICENSE.txt": "/CV-Builder/static/js/2.b315a560.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/CV-Builder/static/media/pexels-energepiccom-288477.b13268e9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06ada664.js",
+    "static/js/2.b315a560.chunk.js",
+    "static/css/main.9c8950d5.chunk.css",
+    "static/js/main.7e9efce4.chunk.js"
+  ]
+}
